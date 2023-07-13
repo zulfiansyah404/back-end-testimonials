@@ -3,7 +3,7 @@
     "rewrite": [
         {
             "source":"/api(.*)",
-            "destination":"/api/ "
+            "destination":"/api/"
         }
     ]
 }
