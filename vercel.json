@@ -1,5 +1,9 @@
 {
-    "router":[
-        {"src":"/(.*)","dest":"api"}
+    "trailingSlash": false,
+    "rewrite": [
+        {
+            "source":"/api(.*)",
+            "destination":"/api/ "
+        }
     ]
 }
