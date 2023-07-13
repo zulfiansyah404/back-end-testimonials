@@ -8,14 +8,13 @@ import (
 var DB *gorm.DB
 
 func ConnectDatabase() {
-	database, err := gorm.Open(mysql.Open("root:nlLDFCsjQliGv24k6z1S@tcp(containers-us-west-59.railway.app:7001)/railway?parseTime=true"))
+	database, err := gorm.Open(mysql.Open("root:Bi1K17ng44YQuOSF0Lxo@tcp(containers-us-west-55.railway.app:5887)/railway?parseTime=true"))
 	if err != nil {
 		panic(err)
 	}
 
-	database.AutoMigrate(&Testimonials{});
+	database.AutoMigrate(&Testimonials{})
 
 	DB = database
-
 
 }

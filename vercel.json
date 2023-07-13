@@ -1,6 +1,6 @@
 {
     "trailingSlash": false,
-    "rewrite": [
+    "rewrites": [
         {
             "source":"/api(.*)",
             "destination":"/api/"
